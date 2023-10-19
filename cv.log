@@ -1,115 +1,133 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.1.31)  29 MAR 2022 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  19 OCT 2023 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2021-11-22> (./resume.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
-(/usr/share/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/size11
+.clo
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/parskip/par
+skip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
-(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/graphics/ke
+yval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count191
+\etb@tempcnta=\count193
 ))
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen139
-\ar@mcellbox=\box50
-\extrarowheight=\dimen140
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/tools/array
+.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen141
+\ar@mcellbox=\box51
+\extrarowheight=\dimen142
 \NC@list=\toks17
-\extratabsurround=\skip49
-\backup@length=\skip50
-\ar@cellbox=\box51
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box52
 )
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/ifthen
+.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 No auxiliary output files.
 
-) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/geometry/ge
+ometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/iftex/ifv
+tex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/generic/iftex/ift
+ex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count192
-\Gm@cntv=\count193
-\c@Gm@tempcnt=\count194
-\Gm@bindingoffset=\dimen141
-\Gm@wd@mp=\dimen142
-\Gm@odd@mp=\dimen143
-\Gm@even@mp=\dimen144
-\Gm@layoutwidth=\dimen145
-\Gm@layoutheight=\dimen146
-\Gm@layouthoffset=\dimen147
-\Gm@layoutvoffset=\dimen148
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks18
 )
-(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/enumitem/en
+umitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip51
-\enit@outerparindent=\dimen149
+\labelindent=\skip52
+\enit@outerparindent=\dimen151
 \enit@toks=\toks19
-\enit@inbox=\box52
-\enit@count@id=\count195
-\enitdp@description=\count196
+\enit@inbox=\box53
+\enit@count@id=\count197
+\enitdp@description=\count198
 )
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count197
-\l__pdf_internal_box=\box53
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box54
 )
 No file cv.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -118,12 +136,12 @@ LaTeX Font Info:    ... okay on input line 11.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
-* v-part:(T,H,B)=(43.36243pt, 758.32199pt, 43.36243pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=489.10287pt
-* \textheight=758.32199pt
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(43.36243pt, 708.24513pt, 43.36243pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=708.24513pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
 * \topmargin=-65.90756pt
@@ -131,7 +149,7 @@ LaTeX Font Info:    ... okay on input line 11.
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -145,41 +163,34 @@ LaTeX Font Info:    ... okay on input line 11.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 11.
+(Font)              <10.95> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
-
-Overfull \hbox (30.0pt too wide) in paragraph at lines 11--11
-[] 
- []
-
+(Font)              <6> on input line 16.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] ) 
+{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}] [2] ) 
 Here is how much of TeX's memory you used:
- 2234 strings out of 478353
- 36725 string characters out of 5854635
- 352523 words of memory out of 5000000
- 20390 multiletter control sequences out of 15000+600000
- 407442 words of font info for 40 fonts, out of 8000000 for 9000
+ 2260 strings out of 476025
+ 38834 string characters out of 5779036
+ 1859388 words of memory out of 5000000
+ 22742 multiletter control sequences out of 15000+600000
+ 515987 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,5n,76p,571b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on cv.pdf (2 pages, 134923 bytes).
+ 72i,6n,76p,571b,257s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/2023031
+3_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/C
+ellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on cv.pdf (2 pages, 83339 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
