@@ -1,4 +1,4 @@
 all:
 	pdflatex cv.tex
 clean:
-	rm *.log *.pdf 
+	rm *.log cv.pdf 
