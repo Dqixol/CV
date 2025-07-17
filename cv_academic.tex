@@ -1,79 +1,87 @@
 
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass[11pt]{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry} % Document margins
 \usepackage{enumitem}
+\usepackage{helvet} % Helvetica font (closest to Arial)
+\renewcommand{\familydefault}{\sfdefault} % Set sans-serif as default font family
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Qichen Dong} % Your name
-\address{44 Whitworth Street, Manchester, M1 3AJ, UK} % Your address
+\address{CERN, Geneva, Switzerland} % Your address
 \address{(+44) 742-250-7895 \\ qichen.dong@cern.ch \\ linkedin.com/in/qichendong} % Your phone number and email
-\begin{document}
 
-    \begin{rSection}{Education}
-        \begin{rSubsection}{University of Manchester}{September 2020 - February 2025}{PhD High Energy Physics}{Manchester, UK}
-            \item Thesis: \textit{Novel Boosted $\mathbf{\tau}_\mathrm{lep}\mathbf{\tau}_\mathrm{had}$ Reconstruction Techniques for 
-                TeV--Scale Graviton Search in $HH\rightarrow {b}{\bar{b}}{\tau}_\mathrm{\mu}{\tau}_\mathrm{had}$ Channel with the ATLAS Detector}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+\usepackage{biblatex}
+\usepackage{atlasbiblatex}
+\addbibresource{cv_academic.bib}
+
+\begin{document}
+    \nocite{*}
+
+    \begin{rSection}{Work Experience}
+        \begin{rSubsection}{University of Oxford}{April 2025 - Present}{Postdoctoral Research Associate}{Geneva, CH}
+            \item Supervised by Prof. Chris Hays; leading development of the ATLAS boosted di-\(\tau_{\mathrm{had}}\) trigger for the 2025 LHC run.
+            \item Designed and deployed real-time di-\(\tau_{\mathrm{had}}\) trigger algorithms, enhancing signal selection efficiency and background estimation.
+            \item Recipient of an ATLAS Software Development Grant to enhance inference performance of existing machine-learning models within trigger and reconstruction frameworks.
+            \item Key analyst on the ATLAS Run 2+3 boosted \(H\to\tau_{\mathrm{had}}\tau_{\mathrm{had}}\) search: trigger optimisation, signal extraction, and BSM interpretation.
+            \item Developer of the lepton-removal \(\tau_{\mathrm{had}}\) reconstruction for the \(H\to aa\to\mu\mu\tau_{\mu}\tau_{\mathrm{had}}\) analysis, including calibration and performance validation.
+            \item Co-supervise two summer students: one developing trigger monitoring algorithms and one supporting the interpretation of the boosted \(H\to\tau_{\mathrm{had}}\tau_{\mathrm{had}}\) analysis.
         \end{rSubsection}
-        \begin{rSubsection}{University of Manchester}{September 2018 - June 2020}{Master of Physics}{Manchester, UK}
-            \item First Class Honours
-            \item Ranked 30th out of 150 students in the final year.
+        \begin{rSubsection}{Qube Research and Technology}{Aug 2022 - Feb 2023}{Intern Quantitative Researcher}{London, UK}
+            \item Applied natural language processing (NLP) models for company similarity analysis on 10-Q/10-K filings and performed sentiment analysis on Japanese local financial reports.
+            \item Developed ML algorithms for financial time-series anomaly detection and corporate-event price correction; optimised real-time market data pipelines.
+            \item Secured a return offer for a permanent quantitative researcher position.
         \end{rSubsection}
-        \begin{rSubsection}{Shandong University}{September 2015 - June 2018}{BSc Physics}{Jinan, CN}
-            \item Overall GPA: 83.3
+        \begin{rSubsection}{University of Manchester}{Sep 2020 - Sep 2023}{Graduate Teaching Assistant}{Manchester, UK}
+            \item Assisted C++ and Python lab sessions for 2nd- and 3rd-year physics undergraduates.
+            \item Supported 3rd-year particle physics experiments, guiding students through data analysis.
+            \item Created interactive Python animations of electromagnetic fields and radiation for the electrodynamics course--used in lectures and distributed for student customisation.
         \end{rSubsection}
     \end{rSection}
 
-    \begin{rSection}{Work Experience}
-        \begin{rSubsection}{University of Oxford}{April 2025 - April 2028}{Postdoctoral Research Associate}{Oxford, UK}
-            \item   Three-year post with a prospective start date in April 2025.
-            \item   Supervised by Prof. Chris Hays. 
+    \begin{rSection}{Education}
+        \begin{rSubsection}{University of Manchester}{September 2020 - February 2025}{PhD in Particle Physics}{Manchester, UK}
+            \item Earned one first-author publication with several more in preparation.
         \end{rSubsection}
-        \begin{rSubsection}{Qube Research and Technology}{August 2022 - February 2023}{Intern Quantitative Researcher}{London, UK}
-            \item Main contributor to the 10-Q and 10-K financial reports similarity analysis using NLP techniques.
-            \item Conducted a similar project on sentiment analysis of Japanese financial reports.
-            \item Designed and developed novel algorithms to identify abnormal data in the financial time-series.
-            \item Developed and validated a price correction model for corporate events for equities.
-            \item Collaborated with a team to develop and optimise database infrastructure for real-time financial market data, enhancing data retrieval and storage efficiency.
-            \item Hold return offer for a full-time position.
+        \begin{rSubsection}{University of Manchester}{September 2018 - June 2020}{Master of Physics}{Manchester, UK}
+            \item First-Class Honours; Ranked 30th out of 150 in the final year.
         \end{rSubsection}
-        \begin{rSubsection}{University of Manchester}{September 2020 - September 2023}{Graduate Teaching Assistant}{Manchester, UK}
-            \item   Demonstrator in the C++ / Python laboratories for year-2 and year-3 undergraduate physics students.
-            \item   Demonstrator in the year-3 particle physics laboratory for undergraduate students. 
-            \item   Prepared a set of interactive electromagnetic field and radiation animations 
-                for the year-3 electrodynamics course. Used in the lectures and made available 
-                offline to the students to use and modify.
+        \begin{rSubsection}{Shandong University}{September 2015 - June 2018}{BSc Physics}{Jinan, CN}
+            \item GPA: 83.3; core physics courses GPA: 88.6.
         \end{rSubsection}
     \end{rSection}
 
     \begin{rSection}{Research Experience}
-        \begin{rSubsection}{ATLAS experiment, CERN}{April 2025 - September 2028}{ATLAS Software Development Grant}{Geneva, CH}
-            \item   Six-month project to develop and enhance the ATLAS offline software.
-            \item   Merge custom inference implementations from various groups into a unified version.
-            \item   Integrate new machine learning inferencing technology.
+        \begin{rSubsection}{ATLAS experiment, CERN}{May 2025 - Present}{ATLAS Software Development Grant--AI Inference}{Geneva, CH}
+            \item Spearheading a six-month AI initiative to optimise ATLAS ML inference pipelines.
+            \item Consolidating and standardising diverse ML models from multiple sub-groups into a unified Athena (the ATLAS offline software framework) inference framework.
+            \item Exploring initial integration of NVIDIA Triton inference server within Athena to assess potential improvements in inference throughput and scalability.
         \end{rSubsection}
-        \begin{rSubsection}{University of Manchester}{September 2020 - September 2024}{PhD Project}{Manchester, UK}
+        \begin{rSubsection}{University of Manchester}{September 2020 - September 2024}{PhD Projects}{Manchester, UK}
             \item   Supervised by Prof. Terry Wyatt FRS. 
-            \item   Proposed, developed, implemented, and tested improved methods to identify the highly boosted pair production of the $\tau$ leptons in the lep-had channels --- the electron-removal $\tau_\mathrm{had}$ and the muon-removal $\tau_\mathrm{had}$ reconstruction applied in Athena.
+            \item   Proposed, developed, implemented, and tested improved methods to identify the highly boosted pair production of the $\tau$ leptons in the lep-had channels---the electron-removal $\tau_\mathrm{had}$ and the muon-removal $\tau_\mathrm{had}$ reconstruction applied in Athena.
             \item   Algorithms went through strict scrutiny, now running in Tier-0 ATLAS data processing system. These methods have been
                 adopted by the ATLAS collaboration as the recommanded taggers for boosted $\tau_\mathrm{lep}\tau_\mathrm{had}$ identification.
             \item   The muon-removal $\tau_\mathrm{had}$ technique has been benchmarked with data, achieving a three-~to~five-fold 
-                improvement in the signal efficiency and signal-to-background ratio. Paper accepted by EPJC.
-            \item   Single-handedly performing a search for resonant production of Higgs boson pairs in the highly boosted $bb\tau\tau$ channel. 
-            \item   Member of the Run 2+3 $H\rightarrow aa\rightarrow \mu\mu\tau_\mathrm{\mu}\tau_\mathrm{had}$ analysis, which uses the muon-removal $\tau_\mathrm{had}$ reconstruction as a key ingredient.
-            \item   Three papers are scheduled to be published for the benefit of the ATLAS collaboration, in which I will be the primary author.
+                improvement in the signal efficiency and signal-to-background ratio. Paper published by EPJC.
+            \item   Single-handedly performed a search for resonant production of Higgs boson pairs in the highly boosted $bb\tau\tau$ channel. 
+            \item   Member of the Run 2+3 $H\rightarrow aa\rightarrow \mu\mu\tau_\mathrm{\mu}\tau_\mathrm{had}$ analysis, which uses the lepton-removal $\tau_\mathrm{had}$ reconstruction as a key ingredient.
+            \item   Two papers based on my PhD research are scheduled for publication with the ATLAS Collaboration; I am the primary author.
             \item   Presented the TauCP group summary talk at the ATLAS 30th birthday week, 2022, Lisbon.
             \item   Expert reviewer for the ATLAS Run 2 $H\rightarrow aa\rightarrow 4\tau$ analysis.
         \end{rSubsection}
-        \begin{rSubsection}{ATLAS experiment, CERN}{April 2022 - August 2022}{Developer and Maintainer}{Geneva, CH}
-            \item Long-term-attached PhD student.
+        \begin{rSubsection}{ATLAS experiment, CERN}{April 2022 - August 2022}{Long-term-attached PhD student.}{Geneva, CH}
             \item Developer and reviewer for Athena, the ATLAS offline software. 
             \item Senior shifter in the ATLAS software merge requests review team.
         \end{rSubsection}
     \end{rSection}
 
-
-    \begin{rSection}{Additional Experience}
+    \begin{rSection}{Volunteer \& Leadership Experience}
         \begin{rSubsection}{Gasala, Remote Village}{June 2016 - September 2017}{Volunteer Primary School Teacher}{Sichuan, CN}
             \item Led a team of volunteers.
             \item Organised math and science lessons for school-age children. 
@@ -84,13 +92,26 @@
         \end{rSubsection}
     \end{rSection}
     
-    \begin{rSection}{Skills and Interests}
+    \begin{rSection}{Skills \& Interests}
         \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
             Programming  & Proficient in programming with C/C++ and Python \\
             Data related & Machine learning, big data analysis, statistical analysis \\
             Teamwork     & Strong communication skills in highly collaborative environments \\ 
-            Languages    & Chinese (Native), English (Professional) \\ 
+            Languages    & Chinese (Native), English (Full Professional Proficiency) \\ 
             Interests    & Graphic design, accelarated / distributed computing \\  
         \end{tabular}
+    \end{rSection}
+
+    \begin{rSection}{Publications}
+        As a member of the ATLAS Collaboration, I have co-authored over 300 peer-reviewed articles since 2022, 
+        contributing to all stages of the experimental program—from advanced data analysis techniques and detector 
+        performance studies to the development and optimization of cutting-edge methodologies. 
+        My efforts have been integral to several high-impact results, enhancing the collaboration's 
+        scientific output. A complete list of my publications is available on \href{https://inspirehep.net/authors/2164455}{InspireHEP}.
+
+        \printbibliography[heading=subbibliography,type=article,title={ATLAS Publications (Major Contributions)}]
+        \printbibliography[heading=subbibliography,type=thesis,title={PhD Thesis}]
+
+        
     \end{rSection}
 \end{document}
